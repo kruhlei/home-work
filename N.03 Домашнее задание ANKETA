@@ -1,0 +1,40 @@
+<script>
+"use strict"
+var=name1;
+do {
+  name1=prompt('Введите Вашу Фамилию');// запрашиваем строку
+  name1=name1.trim();//отсекаем пробелы
+}
+while (!name1); // исключаем не логические значения
+var=name2;
+do{
+    name2=prompt('Введите Ваше имя');
+    name2=name2.trim();
+}
+while (!name2);
+var name3;
+do{
+    name3=prompt('Введите Ваше Отчество');
+    name3=name3.trim();
+}
+while (!name3);
+var age;
+do{
+    age=prommpt('Введите Ваш возраст');
+    var a=Number(age); 
+}
+while (isNaN(a));
+var sex=confirm('Ваш пол мужской?');
+if(sex==true){
+    sex='мужской'
+}
+else {
+    sex='женский' 
+}
+alert(
+    'ваше ФИО '+name1+' '+name2+' 'name3
+    +'\n\r'
+    
+)
+
+</script>
